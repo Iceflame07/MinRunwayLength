@@ -8,7 +8,7 @@ public class MathApp {
    2->Subtraction
    3->Division
    4->Multiplication
-   """;
+""";
 
    System.out.println(MathApp);
 

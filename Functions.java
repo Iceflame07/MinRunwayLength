@@ -1,6 +1,6 @@
 public class Functions {
 
-	public static boolean isEven(int firstNumber) {
+	public static boolean isOdd(int firstNumber) {
 		if(firstNumber % 2 ==0) {
 	     	    return true;
        		} else {

@@ -1,0 +1,19 @@
+public class Array{
+  public static void main(String[] args) {
+
+	//collect a score;
+	//put it in the array;
+	//Increment the arrayIndex;
+  
+	int[] scores = new int[10];
+	int i;
+	Scanner input = new Scanner(System.in);
+
+	for(i = 0; i <= 10; i++){
+	Sytem.out.println("Enter a score");
+	int scores = input.nextInt();
+	}
+
+  }
+
+}

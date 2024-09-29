@@ -5,13 +5,13 @@ public static void main(string[] arg){
 
 Scanner input = new scanner(System.in);
 
-		System.out.print("Enter speed:");
+		System.out.print("Enter speed: ");
 	double speed = input.nextDouble();
 
-		System.out.print("Enter acceleration:");
+		System.out.print("Enter acceleration: ");
 	double acceleration = input.nextDouble();
 
-		System.out.print("Enter meterPerSecond:");
+		System.out.print("Enter meterPerSecond: ");
 	double meterPerSecond = input.nextDouble();
 
 	Double MinRunwayLength = acceleration * meterPerSecond * Math.

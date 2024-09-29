@@ -7,9 +7,6 @@ import java.util.Scanner;
 	for(int i = 1; i <= 5; i++){
 	System.out.println();
 	System.out.print(input);
-	printSpace();
-	printspace();
-
 
 
 	}

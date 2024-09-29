@@ -1,12 +1,10 @@
 import java.util.Scanner;
-	public class Asterisks {
-	public static void main(String[] args) {
+  public class Asterisks {
+    public static void main(String[] args) {
 
-	  Scanner scanner = new Scanner(System.in);
-	  Lengthbase = input("Enter the base of a triangle: ");
-	  Triangles asterisks = input("Enter base length between 1 and 10: ");
-	  int a;
-	  int b;
+      Scanner scanner = new Scanner(System.in);
+
+      Lengthbase = input("Enter the baseLength of a triangle between 1 qnd 10: ");
 	  
 	  System.out.print("Enter rightAngle triangle 1 and 10: ");
 	  int asterisks = inputInt();
@@ -18,6 +16,5 @@ import java.util.Scanner;
 		   System.out.println();
 		}
        }
-
 
 }
