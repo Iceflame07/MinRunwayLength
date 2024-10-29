@@ -5,31 +5,34 @@ import java.util.Scanner;
 	Scanner input = new Scanner(System.in);
 
 	String greetings = "Welcome!!!";
-	String start = "Start This Test!";
+	String start = "Take This Test!";
 
 	System.out.println("Welcome!!!");
 
-	System.out.print("Start This Test!");
-	String Test = input.next();
+	System.out.println("Take This Test!");
+	String Test = input.nextLine();
 
 	System.out.print("Enter your name:");
-	String name = input.next();
+	String name = input.nextLine();
 
-	System.out.print("Enter your age:");
+	System.out.println("Enter your age:");
 	int age = input.nextInt();
 
-	System.out.print("Did you know??, The fertility is diagnosed in about 1 to 6 couples");
-	String fertility = input.next();
+	System.out.println("Enter your sex:");
+	String sex = input.next();
+
+	System.out.println("Did you know??, That the fertility is diagnosed in about 1 to 6 couples");
+	String fertility = input.nextLine();
 
 	System.out.print("Enter the length of your menustrual cycle:");
-	String cycle = input.next();
+	String cycle = input.nextLine();
 
       }
 
-public static void getDate(String[] date converter) {
+/*public void getDate(String[] date,converter){
 
 	Date date = new Date();
-	int DateFormat("dd.mm.yyyy");
+	int localDate = ("yyyy.mm.dd");
 
 	int month = 0;
 	int year = 0;
@@ -40,5 +43,22 @@ public static void getDate(String[] date converter) {
 	System.out.println("Enter the end of the first menustruation date here:");
 	int first = localDate.parse(date,month,year);
 
-   }
+	for(int i = 0; i < date; i++);
+
+	   if(days % 7){
+		System.out.println("You just hit your Menses phase");
+	 } else if(days % 15) {
+		System.out.println("You just hit your Follicular phase");
+	 } else if(days % 21) {
+		System.out.println("You just hit your Ovulation phase");
+	 } else if(days % 28) {
+		System.out.println("You just hit your Luteal phase");
+	 } else if(age % 50) {
+		System.out.println("You have reached your memopause stage");
+	 } else (age % 8) {
+		System.out.print("Consult your doctor!!!");
+	 }
+    
+   
+   }*/
 }
