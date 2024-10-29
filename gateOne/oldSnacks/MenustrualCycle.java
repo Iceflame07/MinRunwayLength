@@ -29,10 +29,10 @@ import java.util.Scanner;
 
       }
 
-/*public void getDate(String[] date,converter){
+public void getlocalDate(String[] date,converter){
 
 	Date date = new Date();
-	int localDate = ("yyyy.mm.dd");
+	string localDate = ("yyyy.mm.dd");
 
 	int month = 0;
 	int year = 0;
@@ -43,22 +43,24 @@ import java.util.Scanner;
 	System.out.println("Enter the end of the first menustruation date here:");
 	int first = localDate.parse(date,month,year);
 
-	for(int i = 0; i < date; i++);
+	for(int i = 0; i < localDate; i++);
 
-	   if(days % 7){
+	   if(days == 7){
 		System.out.println("You just hit your Menses phase");
-	 } else if(days % 15) {
+	 } else if(days == 15) {
 		System.out.println("You just hit your Follicular phase");
-	 } else if(days % 21) {
+	 } else if(days == 21) {
 		System.out.println("You just hit your Ovulation phase");
-	 } else if(days % 28) {
+	 } else if(days == 28) {
 		System.out.println("You just hit your Luteal phase");
-	 } else if(age % 50) {
+	 } else if(age == 50) {
 		System.out.println("You have reached your memopause stage");
-	 } else (age % 8) {
+	 } else if(age == 8) {
+		System.out.println("You are under age");
+	 } else {
 		System.out.print("Consult your doctor!!!");
 	 }
     
    
-   }*/
+   }
 }
