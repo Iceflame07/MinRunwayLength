@@ -4,44 +4,51 @@ import java.util.Scanner;
 
 	Scanner input = new Scanner(System.in);
 
-	System.out.print("Enter your card sixteen digit:");
-	int number = input.nextInt();
+	int visaCard = 4;
+	int masterCard = 5;
+	int americanExpressCard = 37;
+	int discoveryCard = 6;
 
-	int firstNumber = (38);
-	int secondNumber = (37);
-	int cardLength = (16);
-	int count = (0);
-	int visaCard = (4);
-	int masterCard = (5);
-	int americanExpressCard = (37);
-	int discoverCard = (6);
+	System.out.println("Enter your card digit:");
+	String number = input.nextLine();
+	System.out.println(cardFigures(number));
+    }
 
-	for(int card = 0; card < cardLength; card++);
+public static String cardFigures(String number){
 
-      if(visaCard == 16){
-	     System.out.println("card is visaCard");
+	if(number.startsWith("4")){
+      	  return "visaCard";
+   }
 
-      } else if(masterCard == 16){
-	     System.out.println("card is masterCard");
+	if(number.startsWith("5")){
+	  return "masterCard";
+   }
 
-      } else if(americanExpressCard == 16){
-	     System.out.println("card is americanExpressCard");
+	if(number.startsWith("37")){
+	  return "americanExpressCard";
+   }
 
-      } else if(discoverCard == 16){
-	     System.out.println("card is discoverCard");
-
-      } else if(cardLength != 16){
-	     System.out.println("Invalid card,try again!!!");
-
-      } else {
-	     System.out.println("Invalid card,try again!!!");
-      }
-
-
+	if(number.startsWith("6")){
+	  return "discoveryCard";
+   }
+	  return "invalid cardFigures";
   }
 
+ public static String cardValidator(String number){
+
+	int cardLength = 16;
+	int card = 0;
+
+	for(int cardFigure = 0; cardFigure < cardLength; cardFigure++)
+
+	   if(cardFigure <= 16){
+		return "This is a valid card";
+	}  else {
+		return "This is an invalid card";
+	}
+		return "Try again";
+	}
+
+  
+
 }
-
-
-
-

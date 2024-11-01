@@ -1,6 +1,8 @@
 import java.util.Scanner;
+import java.time.LocalDate;
   public class MenustrualCycle {
    public static void main(String[] args) {
+
 
 	Scanner input = new Scanner(System.in);
 
@@ -10,57 +12,61 @@ import java.util.Scanner;
 	System.out.println("Welcome!!!");
 
 	System.out.println("Take This Test!");
-	String Test = input.nextLine();
+	String Test = input.next();
 
 	System.out.print("Enter your name:");
-	String name = input.nextLine();
+	String name = input.next();
 
-	System.out.println("Enter your age:");
+	System.out.print("Enter your age:");
 	int age = input.nextInt();
 
-	System.out.println("Enter your sex:");
-	String sex = input.next();
-
-	System.out.println("Did you know??, That the fertility is diagnosed in about 1 to 6 couples");
-	String fertility = input.nextLine();
-
 	System.out.print("Enter the length of your menustrual cycle:");
-	String cycle = input.nextLine();
+	String Length = input.next();
 
-      }
+	CalculateMenustrualCyclePhases(cycleLength);
+   }
 
-public void getlocalDate(String[] date,converter){
+public static void CalculateMenustrualCyclePhases(int cycleLength){
 
-	Date date = new Date();
-	string localDate = ("yyyy.mm.dd");
 
-	int month = 0;
-	int year = 0;
+	Scanner input = new Scanner(System.in);
+
+	LocalDate today = LocalDate.now();
+	System.out.println("Today's date: " + today);
+
 
 	System.out.println("Enter first menustruation date here:");
-	int date = localDate.parse(date,month,year);
+	int daysSinceMenustruation = input.nextInt();
 
 	System.out.println("Enter the end of the first menustruation date here:");
-	int first = localDate.parse(date,month,year);
+	int endOfMenstration = input.nextInt();
 
-	for(int i = 0; i < localDate; i++);
+	int LocalDate = LocalDate.minusDays();
 
-	   if(days == 7){
-		System.out.println("You just hit your Menses phase");
-	 } else if(days == 15) {
-		System.out.println("You just hit your Follicular phase");
-	 } else if(days == 21) {
-		System.out.println("You just hit your Ovulation phase");
-	 } else if(days == 28) {
-		System.out.println("You just hit your Luteal phase");
-	 } else if(age == 50) {
-		System.out.println("You have reached your memopause stage");
-	 } else if(age == 8) {
-		System.out.println("You are under age");
-	 } else {
-		System.out.print("Consult your doctor!!!");
-	 }
-    
-   
+	System.out.println("Your next date is: ");
+
+
+	System.out.println("Enter next menustruation date here:");
+	int nextMenustruation = input.nextInt();
+
+	System.out.println("Enter the end of the next menustruation date here:");
+	int endOfNextMenstration = input.nextInt();
+
+	int LocalDate = LocalDate.minusDays();
+
+	System.out.println("Your next date is: ");
+
+
+	System.out.println("Enter next phase of menustruation date here:");
+	int nextPhaseMenustruation = input.nextInt();
+
+	System.out.println("Enter the end of the next phase of menustruation date here:");
+	int endOfNextPhaseOfMenstration = input.nextInt();
+
+	int LocalDate = LocalDate.minusDays();
+
+	System.out.println("Your next date is: ");
+
+
    }
 }

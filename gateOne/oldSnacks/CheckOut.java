@@ -2,27 +2,31 @@ import java.util.Scanner;
   public class CheckOut {
    public static void main(String[] args) {
 
-    System.out.print("Enter the customer name:");
-    string customer = input.nextLine();
+    Scanner input = new Scanner(System.in);
 
-    System.out.print("Enter the product name:");
-    string product = input.nextLine();
+    System.out.print("Enter the customer name:");
+    String customer = input.nextLine();
+
+    System.out.print("Enter the items name:");
+    String product = input.nextLine();
 
     System.out.print("Enter the price per unit:");
-    string product = input.nextLine();
+    String price = input.nextLine();
 
     System.out.print("Add more items:");
-    string items = input.nextLine();
+    String items = input.nextLine();
 
     System.out.print("Enter the amount of product purchased:");
-    string amount = input.nextLine();
+    String amount = input.nextLine();
 
     System.out.print("Enter seller name:");
-    string seller = input.nextLine();
+    String seller = input.nextLine();
 
-    ItemsPriceMenu();
 
-    ItemsPricePerUnitMenu ="""
+  itemsMenu();
+
+    itemsPerUnitMenu ="""
+
     0->Choice
     1->Rice price $50
     2->Oil price $20
@@ -35,9 +39,7 @@ import java.util.Scanner;
 """;
 
 
-    System.out.println(itemsMenuOption);
-
-    Scanner input = new Scanner(System.in);
+    System.out.println(ItemsMenuOption);
 
     switch(itemsMenuOption) {
 
@@ -56,7 +58,7 @@ import java.util.Scanner;
     int count = 0;
     int items = 7;
 
-    for(int products = 0; products < items; products++);
+    for(int goods = 0; goods < items; goods++);
 
        if(items == 1){
 	  System.out.println("You bought one item");
@@ -82,6 +84,7 @@ import java.util.Scanner;
 	  System.out.print("Add more items");
      }
 
+     int calculate = 0;
 
    }
 

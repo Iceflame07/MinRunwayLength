@@ -19,11 +19,12 @@ import java.util.Scanner;
     System.out.print("Enter_choice_option");
     String Menu_option = input.nextInt();
 
+   
    case 1: System.out.println("Enter contact"); break;
-   case 2: System.out.println("Find contact by phone number");  break;
-   case 3: System.out.println("Find contact by first name"); break;
-   case 4: System.out.println("Find contact by last name"); break;
-   case 5: System.out.println("Edit contact"); break;
+   case 2: System.out.println("Find contact by phone number:");  break;
+   case 3: System.out.println("Find contact by first name:"); break;
+   case 4: System.out.println("Find contact by last name:"); break;
+   case 5: System.out.println("Edit contact:"); break;
    default: System.out.print("Invalid input"); break;
 
   }
