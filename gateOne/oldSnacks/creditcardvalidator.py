@@ -11,11 +11,11 @@ prompt the computer to sum the odd and the even numbers together and save
 display the result and save
 '''
 
-def card_validator(string_number):
+
+
+def card_Figures(string_number):
 
  number = int(input("Enter your card digits:"))
-
-for number in range(16):
 
  if(number.startsWith("4")):
    print(visacard)
@@ -30,5 +30,5 @@ for number in range(16):
    print(discoverycard)
 
  else:
- 	print(your_cardtype_is)
+ 	print(invalid_card)
 
