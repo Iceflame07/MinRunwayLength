@@ -24,6 +24,8 @@ import java.util.Scanner;
 
 	String[] option B = {"conserve energy, enjoy one-on-one"};
 
+	personalities = {"ESPN,ESTJ"}
+
 
 
 	

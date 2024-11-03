@@ -23,10 +23,10 @@ import java.time.LocalDate;
 	System.out.print("Enter the length of your menustrual cycle:");
 	String Length = input.next();
 
-	CalculateMenustrualCyclePhases(cycleLength);
+	CalculateMenustrualCyclePhases(CyclePhases);
    }
 
-public static void CalculateMenustrualCyclePhases(int cycleLength){
+public static void CalculateMenustrualCyclePhases(int CyclePhases){
 
 
 	Scanner input = new Scanner(System.in);
@@ -35,10 +35,10 @@ public static void CalculateMenustrualCyclePhases(int cycleLength){
 	System.out.println("Today's date: " + today);
 
 
-	System.out.println("Enter first menustruation date here:");
+	System.out.println("Enter first menustruation CyclePhases here:");
 	int daysSinceMenustruation = input.nextInt();
 
-	System.out.println("Enter the end of the first menustruation date here:");
+	System.out.println("Enter the end of the first menustruation CyclePhases here:");
 	int endOfMenstration = input.nextInt();
 
 	int LocalDate = LocalDate.minusDays();
@@ -46,26 +46,26 @@ public static void CalculateMenustrualCyclePhases(int cycleLength){
 	System.out.println("Your next date is: ");
 
 
-	System.out.println("Enter next menustruation date here:");
+	System.out.println("Enter next menustruation CyclePhases here:");
 	int nextMenustruation = input.nextInt();
 
-	System.out.println("Enter the end of the next menustruation date here:");
-	int endOfNextMenstration = input.nextInt();
+	System.out.println("Enter the end of the next menustruation CyclePhases here:");
+	int endOfNextMenustration = input.nextInt();
 
-	int LocalDate = LocalDate.minusDays();
+	int specificDate = LocalDate.minusDays();
 
 	System.out.println("Your next date is: ");
 
 
-	System.out.println("Enter next phase of menustruation date here:");
+	System.out.println("Enter next phase of menustruation CyclePhases here:");
 	int nextPhaseMenustruation = input.nextInt();
 
-	System.out.println("Enter the end of the next phase of menustruation date here:");
+	System.out.println("Enter the end of the next phase of menustruation CyclePhases here:");
 	int endOfNextPhaseOfMenstration = input.nextInt();
 
 	int LocalDate = LocalDate.minusDays();
 
-	System.out.println("Your next date is: ");
+	System.out.println("Your next CyclePhases is: ");
 
 
    }
