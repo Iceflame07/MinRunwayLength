@@ -1,15 +1,11 @@
 import java.util.Scanner;
-	public class Loop {
-
+	public class FourLoop {
 		public static void main(String[] args) {
 
-		{
-		  for(int k=1; k<=4; k++);
-		  System.out.println("fail"); 
-		  else(int k=1; k>=5; k++);
-		  System.out.println("pass");
-		
-		  (k==5);
+			Scanner input = new Scanner(System.in);
+
+		  for(int k = 0; k <= 4; k++) {
+			  System.out.println("fail");
+		  }
 		}
-	}
-}
+	};

@@ -1,55 +1,54 @@
 import java.util.Scanner;
-  public class checkOut {
+  public class checkOut{
    public static void main(String[] args) {
 
     Scanner input = new Scanner(System.in);
 
-    System.out.print("Enter the customer name:");
+    System.out.println("Enter the customer name:");
     String customer = input.nextLine();
 
-    System.out.print("Enter the items bought:");
+    System.out.println("Enter the items bought:");
     String items = input.nextLine();
 
-    System.out.print("How many pieces:");
+    System.out.println("How many pieces:");
     int pieces = input.nextInt();
 
-    System.out.print("Enter the unitPrice:");
-    int price = input.nextLine();
+    System.out.println("Enter the pricePerUnit:");
+    int unit = input.nextInt();
 
-    System.out.print("Add more items:");
-    String items = input.nextLine();
+    System.out.println("Add more items:");
+    String Add = input.nextLine();
 
     String Yes = "1";
     String No = "2";
 
-    for(int i = 0; i < yes; i++)
-     for(int j = 0; j < No; j++)
+    for(int Add = 0; Add < items; Add++)
 
-    if (i == 1){
-	return "1";
-  } else if{
-	return "2";
-  } else {
-	return "Invalid";
-  }
+      if (Add <= 1){
+	System.out.println("Yes");
+    }
 
-    System.out.print("Enter cashier name:");
+    else if (Add >= 2){
+	System.out.println("No");
+    }
+
+    System.out.println("Enter cashier name:");
     String cashier = input.nextLine();
 
-    int discount = 0;
+    int discount;
 
-    System.out.print("How much discount will you get:");
+    System.out.println("How much discount will you get:");
     int discount = input.nextInt();
 
     System.out.println("The amount paid:");
     int amount = input.nextInt();
 
-    int Bill Total = items - unitPrice; 
-    int Balance = amount - discount;
+    int goods = pieces - pricePerUnit; 
+    int balance = amount - discount;
 
-	return "balance";
+    System.out.println(balance);
 
-    System.ou.print("THANK YOU FOR YOUR PATRONAGE!!!");
+    System.out.print("THANK YOU FOR YOUR PATRONAGE!!!");
     String patronage = input.nextLine();
 
    }

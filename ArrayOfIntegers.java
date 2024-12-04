@@ -16,11 +16,11 @@ public class ArrayOfIntegers {
         }
  
         System.out.println("Sum of the array: " + sum);
-        
-        int largestInteger = Largest(list);
+        int largestInteger = input.nextInt();
+
         System.out.println("The largest integer is: " + largestInteger);
         
-        if (Sum < largestInteger){
+        if (targetSum < largestInteger){
             System.out.println("The sum is less than the largest integer.");
         } else {
             System.out.println("The sum is greater than or equal to the largest integer.");
@@ -29,14 +29,4 @@ public class ArrayOfIntegers {
         input.nextInt();
     }
 
-    public static int findLargest(int[] array) {
-
-        int largest : array[0];
-        for (int integer : array) {
-            if (integer > largest) {
-                largest = integer;
-            }
-        }
-        return largest;
-    }
 }

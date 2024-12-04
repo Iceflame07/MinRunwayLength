@@ -3,10 +3,10 @@ import java.util.Scanner;
 	public class Nokia3310 {
 	public static void main (String[] args) {
 
-	mainMenu();
+		phoneMenu();
 }
 
-	String List Of mainMenu ="""
+	String ListOfphoneMenu ="""
 	1->Phonebook
 	2->Messages
 	3->Chat

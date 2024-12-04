@@ -1,0 +1,54 @@
+if grade >= 85: 
+    print('passed') 
+else:
+    print ('failure')
+
+
+
+if grade >= 60:
+    result = 'passed'
+else:
+    result = 'failed'
+
+
+
+if grade >= 70: 
+    print('passed') 
+else:
+    print ('failure')
+    print ('you must take this course again')
+
+
+
+
+if grade >= 85: 
+    print('A') 
+elif grade >=75:
+    print ('B')
+elif grade >=65:
+    print ('C')
+elif grade >=65:
+    print ('D')
+else:
+    print ('f')
+
+
+
+if grade >= 85: 
+    print('A') 
+else:
+    print ('Not A or B')
+elif grade >= 80
+
+
+Product =3
+
+while product <= 50
+	product = product * 3
+
+
+Int:product
+Out:81
+
+
+

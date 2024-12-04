@@ -1,0 +1,23 @@
+[master (root-commit) 1728fae] phase 1
+ 4 files changed, 44 insertions(+)
+ create mode 100644 TapSwap/TapSwap.java
+ create mode 100644 TapSwap/tapSwapTest.java
+ create mode 100644 junit-jupiter-api-5.11.0.jar
+ create mode 100644 junit-platform-console-standalone-1.11.0.jar
+
+C:\Users\DELL USER\Documents\Java-TDD>git push https://github.com/Iceflame07/Java-TDD.git
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream https://github.com/Iceflame07/Java-TDD.git master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+C:\Users\DELL USER\Documents\Java-TDD>git push --set-upstream https://github.com/Iceflame07/Java-TDD.git master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (7/7), done.
+Writing objects:  85% (6/7), 1.64 MiB | 124.00 KiB/s
